@@ -90,6 +90,6 @@ const mp_obj_module_t gyro_cmodule = {
 	.globals = (mp_obj_dict_t*)&gyro_module_globals,
 };
 
-#if MODULE_GYRO_ENABLED
+//#if MODULE_GYRO_ENABLED
 MP_REGISTER_MODULE(MP_QSTR_gyro, gyro_cmodule);
-#endif
+//#endif
